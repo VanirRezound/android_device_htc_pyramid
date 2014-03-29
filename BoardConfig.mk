@@ -131,6 +131,9 @@ TARGET_BOOTANIMATION_USE_RGB565 := true
 ENABLE_WEBGL := true
 TARGET_FORCE_CPU_UPLOAD := true
 
+# USB
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun0/file
+
 # Hardware tunables
 BOARD_HARDWARE_CLASS := device/htc/pyramid/cmhw/
 
